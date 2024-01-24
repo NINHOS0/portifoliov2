@@ -11,7 +11,7 @@ datasource db {
 }
 
 model Projects {
-  id          String @id @map("_id")
+  id          String @id @map("_id") @db.ObjectId
   name        String
   description String
   github      String
