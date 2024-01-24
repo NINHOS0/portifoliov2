@@ -25,3 +25,9 @@ app.get("/projects/new", async (req: Request, res: Response) => {
     })
     return res.send("Criou")
 })
+
+app.listen(8080, () => {
+    console.log("entrou");
+})
+
+module.exports = app
