@@ -5,8 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon server",
-    "vercel-build": "npx prisma db push"
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
