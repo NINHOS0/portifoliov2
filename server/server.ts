@@ -1,16 +1,14 @@
-import { PrismaClient } from "@prisma/client";
+import { prismaClient } from "./prisma/database";
 import fastify from "fastify";
-
-const prisma = new PrismaClient();
 const app = fastify({ logger: true });
 
 app.get("/", async (req, res) => {
-  return res.send(await prisma.projects.findMany());
+  return res.send(await prismaClient.projects.findMany());
 });
 
 app.post("/new", async (req, res) => {
   try {
-    const result = await prisma.projects.create({
+    const result = await prismaClient.projects.create({
       data: {
         id: "testes-testes",
         name: "Teste Teste",
@@ -26,10 +24,13 @@ app.post("/new", async (req, res) => {
   }
 });
 
+function start() {
+  app.listen({ port: 3000 }, (err) => {
+    if (err) {
+      app.log.error(err.message);
+      process.exit(1);
+    }
+  });
+}
 
-app.listen({ port: 3000 }, (err) => {
-  if (err) {
-    app.log.error(err.message);
-    process.exit(1);
-  }
-})
+start()
