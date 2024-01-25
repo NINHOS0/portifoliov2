@@ -28,6 +28,8 @@ app.post("/new", async (req, res) => {
 
 
 app.listen({ port: 3000 }, (err) => {
-  app.log.error(err.message);
-  process.exit(1);
+  if (err) {
+    app.log.error(err.message);
+    process.exit(1);
+  }
 })
