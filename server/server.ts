@@ -26,9 +26,8 @@ app.post("/new", async (req, res) => {
   }
 });
 
-try {
-  app.listen({ port: 3000 });
-} catch (err) {
-  app.log.error(err);
+
+app.listen({ port: 3000 }, (err) => {
+  app.log.error(err.message);
   process.exit(1);
-}
+})
