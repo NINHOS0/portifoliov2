@@ -2,10 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "./src/server.js",
   "scripts": {
     "dev": "nodemon server",
-    "vercel-build": "prisma generate"
+    "build": "tsc src",
+    "start": "node dist/server.js"
   },
   "keywords": [],
   "author": "",

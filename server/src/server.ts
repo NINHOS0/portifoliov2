@@ -1,4 +1,4 @@
-import { prismaClient } from "./prisma/database";
+import { prismaClient } from "../prisma/database";
 import fastify from "fastify";
 const app = fastify({ logger: true });
 
