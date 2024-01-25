@@ -1,5 +1,5 @@
 {
   "version": 2,
-  "builds": [{ "src": "script.ts", "use": "@vercel/node" }],
+  "builds": [{ "src": "dist/script.js", "use": "@vercel/node", "config": { "includeFiles": ["dist/**"] } }],
   "routes": [{ "src": "/(.*)", "dest": "script.ts" }]
 }
