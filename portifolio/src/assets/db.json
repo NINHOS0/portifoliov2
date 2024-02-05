@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "id": "manual-de-utilizacao-de-sistema",
+      "name": "Manual de Utilização de Sistema",
+      "desc": "Manual de utilização de um sistema realizado durante o trabalho de conclusão de curso (TCC) do ensino médio técnico em informática.\n\nUtilizando: NextJS, Typescript e ChakraUI.\nContendo: temas, idiomas, pesquisa e responsividade.",
+      "github": "https://github.com/NINHOS0/manual-tcc",
+      "project": "https://manual-sistema-sca.vercel.app/pt-br/inicio"
+    },
+    {
+      "id": "calculadora-de-idade",
+      "name": "Calculadora de Idade",
+      "desc": "Desafio Calculadora de Idade por <a href='https://www.frontendmentor.io/' target='_blank'>Frontend Mentor.</a> \n Utilizando: HTML, CSS, JavaScript e momentjs. \n\n Aplicação que calcula a duração em anos, meses e dias com a data fornecida, isso se for uma data valida.",
+      "github": "https://github.com/NINHOS0/Age-calculator-app-solution",
+      "project": "https://ninhos0.github.io/Age-calculator-app-solution/"
+    },
+    {
+      "id": "listagem-de-vaga-com-filtro",
+      "name": "Listagem de vaga com filtro",
+      "desc": "Desafio Listagem de Vaga por <a href='https://www.frontendmentor.io/' target='_blank'>Frontend Mentor.</a> \n Utilizando: HTML, CSS e JavaScript. \n\n Aplicação de vaga de empregos com filtros.",
+      "github": "https://github.com/NINHOS0/FrontEnd-Mentor/tree/main/job-list",
+      "project": "https://ninhos0.github.io/FrontEnd-Mentor/job-list/"
+    }
+  ]
+}

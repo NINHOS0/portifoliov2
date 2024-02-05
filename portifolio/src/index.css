@@ -20,3 +20,11 @@
 body {
   height: 100vh;
 }
+
+.description a {
+  @apply text-blue-600 hover:opacity-60 transition underline
+}
+
+:focus-visible {
+  @apply px-1 opacity-40
+}
