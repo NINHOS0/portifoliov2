@@ -6,7 +6,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import SkillCard from "@components/SkillCard";
 
 const Home = () => {
-  const ACTUAL_AGE = Math.floor((Date.now() - new Date("2005-12-19").getTime()) / 1000 / 60 / 60 / 24 / 365);
+  const ACTUAL_AGE = Math.floor((Date.now() - new Date("2005-12-19").getTime()) / 1000 / 60 / 60 / 24 / 365);  
 
   return (
     <>
@@ -19,37 +19,6 @@ const Home = () => {
           <br /> Após a conclusão do ensino médio continuei meu estudo na área, e estudando até o momento atual.
         </p>
       </section>
-      {/* <section className="mt-24 max-w-[600px]">
-        <h1 className="text-2xl font-bold underline">Aprendizado</h1>
-        <p className="mt-4">
-          Comecei o estudo em 2021 conhecendo os conceitos de HTML e CSS, seguindo para JavaScript mais tarde.
-          <br />
-          Hoje, estudando e conhecendo a biblioteca React junto com Node.js.
-        </p>
-        <h3 className="mt-3 text-lg font-semibold">Domínios:</h3>
-        <ul className="text-md">
-          <li>
-            - Inglês - <span className="text-yellow-600 font-semibold">Básico</span>
-          </li>
-          <li>
-            - Php - <span className="text-green-600 font-semibold">Básico</span>{" "}
-          </li>
-          <li>- HTML, CSS e JS</li>
-          <li>- Tailwind </li>
-          <li>
-            - React - <span className="text-green-600 font-semibold">Básico</span>{" "}
-          </li>
-          <li>
-            - NextJS - <span className="text-green-600 font-semibold">Básico</span>{" "}
-          </li>
-          <li>
-            - NodeJS - <span className="text-green-600 font-semibold">Básico</span>{" "}
-          </li>
-          <li>
-            - Banco de Dados - <strong>MySql</strong>{" "}
-          </li>
-        </ul>
-      </section> */}
 
       <section className="mt-24">
         <h1 className="text-2xl font-bold underline">Aprendizado</h1>

@@ -6,6 +6,7 @@ import Project from "./pages/project.tsx";
 import Home from "@pages/home.tsx";
 import NotFound from "@pages/notfound.tsx";
 import "./index.css";
+import ThemeProvider from "context/themeProvider.tsx";
 
 const route = createBrowserRouter([
   {
@@ -15,7 +16,6 @@ const route = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        
       },
       {
         path: "projects",
@@ -29,4 +29,8 @@ const route = createBrowserRouter([
   },
 ]);
 
-ReactDOM.createRoot(document.getElementById("root")!).render(<RouterProvider router={route} />);
+ReactDOM.createRoot(document.getElementById("root")!).render(
+  <ThemeProvider>
+    <RouterProvider router={route} />
+  </ThemeProvider>
+);
