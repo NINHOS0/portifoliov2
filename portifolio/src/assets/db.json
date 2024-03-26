@@ -20,6 +20,20 @@
       "desc": "Desafio Listagem de Vaga por <a href='https://www.frontendmentor.io/' target='_blank'>Frontend Mentor.</a> \n Utilizando: HTML, CSS e JavaScript. \n\n Aplicação de vaga de empregos com filtros.",
       "github": "https://github.com/NINHOS0/FrontEnd-Mentor/tree/main/job-list",
       "project": "https://ninhos0.github.io/FrontEnd-Mentor/job-list/"
+    },
+    {
+      "id": "rastreamento-de-tempo",
+      "name": "Rastreamento de tempo",
+      "desc": "Desafio Rastreamento de Tempo  por <a href='https://www.frontendmentor.io/' target='_blank'>Frontend Mentor.</a> \n Utilizando: ReactJS, HTML, Tailwind e JavaScript. \n\n Aplicação de rastreamento de tempo.",
+      "github": "https://github.com/NINHOS0/time-tracking-dashboard-main",
+      "project": "https://time-tracking-dashboard-main-gilt.vercel.app/"
+    },
+    {
+      "id": "calculadora",
+      "name": "Calculadora",
+      "desc": "Desafio Calculadora  por <a href='https://www.frontendmentor.io/' target='_blank'>Frontend Mentor.</a> \n Utilizando: ReactJS, HTML, Tailwind e JavaScript. \n\n Aplicação de calculadora.",
+      "github": "https://github.com/NINHOS0/calculator-app",
+      "project": "https://calculator-app-ninhos0s-projects.vercel.app/"
     }
   ]
 }
