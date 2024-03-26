@@ -41,9 +41,9 @@ const Home = () => {
         </div>
       </section>
 
-      <section className="mt-24">
+      <section className="mt-24 flex flex-col items-center gap-2">
         <h1 className="text-2xl text-center font-bold underline">Projetos</h1>
-        <div className="mt-4 grid gap-4 place-items-center">
+        <div className="mt-2 grid gap-4 place-items-center">
           {db.projects.map(
             (project, i) =>
               i < 4 && (
@@ -61,10 +61,7 @@ const Home = () => {
           )}
         </div>
         {db.projects.length > 3 && (
-          <Link.styled
-            to="/projects"
-            className="block text-center font-semibold text-blue-500 transition-all hover:tracking-[4px] hover:opacity-60 mt-4"
-          >
+          <Link.styled to="/projects">
             [Ver mais]
           </Link.styled>
         )}
